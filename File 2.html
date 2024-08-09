@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>HTML 2</title>
+    </head>
+    <body>
+
+        <h1 align="center">HTML 2</h1>
+
+             <!-- Balance Topics -->
+
+        <!-- This is how include external css -->
+         <link rel="stylesheet" href="hari.css">
+
+         <!-- This how inlude external Java Script -->
+         <script src="hari.js"></script>
+
+         <!-- We can acces not only website or any other links , we can easily acess our internal file links -->
+          <a href="contacts_24dp_FILL0_wght400_GRAD0_opsz24.png" target="_blank">png</a>
+
+          <br>
+
+          <!-- if image is not found means then it need to something like(error , image not found) -->
+
+          <img src="D:\Training\Developement\images__6_-removebg-preview.png" alt="Not found">
+          <img src="./Thirumoolar.png" alt="Error" width="100" height="100"> 
+
+          <br>
+
+          <!-- if we want write list in between the list -->
+
+           <ul>
+            <li>My name is PHK</li>
+            <li>I have 3 Friends</li>
+            <ol>
+                <li>Akhil</li>
+                <li>Kumar</li>
+                <li>Perivi</li>
+            </ol>
+            <li>This is myself</li>
+           </ul>
+
+      <!-- Input Tag & form tag -->
+       <!-- By using form tag it all work together -->
+    
+              <form action="backend.php" target="_blank">
+
+                Name : <input type="text" name="Ny Name" id=""><br><br>   <!--Name and id we will learn after this are run backend.php-->
+                Roll no : <input type="text" name="My Roll no" id=""><br><br>
+                E-Mail : <input type="email" name="My E-mail" id=""><br><br>
+                Date : <input type="date" name="" id=""><br><br>
+                button : <input type="button" value="click here">
+                color  : <input type="color" name="" id="">
+                check box :<input type="checkbox" name="" id="">
+                number = <input type="number" name="" id=""><br><br>
+ <!-- If name is same then it choose only one in Radio button , if not give or different name means it select both -->
+                Radio : Male :<input type="radio" name="mygender" id="">
+                        Female: <input type="radio" name="mygender" id=""><br><br>
+                submit : <input type="submit" value="Submit"><br><br><!--value we need to write-->
+                Reset : <input type="reset" name="" id=""><br><br>
+
+                <!-- Text Area -->
+
+                Feed Back : <br>
+                <textarea name="" id=""  cols="70" rows="10"></textarea> <!--Row & column are used to Increse the box size-->
+
+                
+              </form>  
+
+              <hr>
+
+              <!-- Lable Tag -->
+               <!-- It is used to when we clink on text it select the Input area -->
+
+               <center><h1>Lable Tag</h1></center>
+
+              <form action="backend.PHP">
+
+                <label for="Name">my name</label>  <!-- for & id must be Same-->
+
+                <input type="text" name="My Name" id="Name">
+
+              </form>
+
+              <hr>
+
+
+              <!-- Select Tag  & Option Tag -->
+               <!-- I don't know what is value in option tag -->
+
+               <h3>Option and Select Tag</h3>
+
+ 
+              <form action="Backend.Php">                      <!--Form Tag-->
+                
+                <label for="car">Car Model</label>             <!--Lable Tag-->
+
+                <select name="my car" id="car">                <!--Select Tag-->
+                   <option value="ind">Indica</option>         <!--Option Tags-->
+                   <option value="swf" selected >swift</option>
+                   <option value="Baj">Bajaj</option>
+                </select>
+
+              </form>
+
+<hr>
+
+                               <!-- Inline & Block Elements -->
+                      <center><h2>Inline and Block Elements</h2></center>
+
+                      <!-- span tag is used to combine two paragragh or two or more lines -->
+
+      <P>Lorem ipsum dolor sit, amet consectetur</p></P>adipisicing elit. Dolor, aliquam.</P>                
+     <span>Lorem ipsum dolor sit amet consectetur </span></span>adipisicing elit. Earum, cumque.</span>
+
+     <hr>
+
+
+                                 <center><h3>ID & Class<h3></center>
+
+    <!-- class -->
+      <!-- shortcut for CLASS -->
+         <!--  . is used for  write class-->
+           <!-- div is default for both id and class -->
+           
+          <div class="myclass"></div>                     <!-- .myclass + enter -->
+
+          <div class="myclass1 myclass2 myclass3"></div>  <!-- .myclass1.myclass2.myclass3 + enter -->
+
+          <!-- If we want span -->
+
+          <span class="myclass1 myclass2"></span>         <!-- span.myclass1.myclass2 + enter -->
+
+
+          <!-- If we want enter multiple class means  -->
+          <div class="myclass1 myclass2"></div>           <!-- .myclass1.myclass2*3 + enter -->
+          <div class="myclass1 myclass2"></div>
+          <div class="myclass1 myclass2"></div>
+
+
+
+
+
+    <!--  Id -->
+      <!-- Shortcut for Id -->
+        <!--  # is used for write id -->
+      
+        <div id="myid"></div>             <!-- #myid + enter , div is default  -->
+
+        <span id="myid"></span>           <!-- span#myid + enter -->
+
+        <div id="myid"></div>              <!-- #myid*2 + enter -->
+        <div id="myid"></div>
+
+
+        <!-- Combinaton of Id and Class  -->
+
+        <div class="myclass1 myclass2" id="myid">HariKrishna</div>
+
+<hr>
+
+<h3></h3>
+   
+    
+
+     
+
+
+
+    </body>
+</html>
